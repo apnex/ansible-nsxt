@@ -3,7 +3,7 @@
 	"nsx_username": "admin",
 	"nsx_password": "VMware1!SDDC",
 	"validate_certs": "false",
-	"state": "absent",
+	"state": "present",
 	"tier1_gateways": [
 		{
 			"display_name": "t1-tenantc",
