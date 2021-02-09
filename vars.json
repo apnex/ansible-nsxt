@@ -172,21 +172,6 @@
 						"/infra/services/AD_Server"
 					],
 					"action": "ALLOW"
-				},
-				{
-					"display_name": "Catch-All",
-					"description": "Catch All rule",
-					"sequence_number": 2,
-					"source_groups": [
-						"any"
-					],
-					"destination_groups": [
-						"any"
-					],
-					"services": [
-						"any"
-					],
-					"action": "DROP"
 				}
 			],
 			"tags": [
@@ -215,21 +200,6 @@
 						"/infra/services/MySQL"
 					],
 					"action": "ALLOW"
-				},
-				{
-					"display_name": "Catch-All",
-					"description": "Catch All rule",
-					"sequence_number": 2,
-					"source_groups": [
-						"any"
-					],
-					"destination_groups": [
-						"any"
-					],
-					"services": [
-						"any"
-					],
-					"action": "DROP"
 				}
 			],
 			"tags": [
